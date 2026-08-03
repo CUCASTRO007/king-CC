@@ -1,0 +1,16 @@
+{
+  "name": "king-online",
+  "version": "1.0.0",
+  "description": "King · juego de cartas en linea para cuatro jugadores",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
