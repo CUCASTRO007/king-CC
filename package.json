@@ -1,0 +1,16 @@
+{
+  "name": "king-online-amigos",
+  "version": "1.0.0",
+  "description": "King · juego de cartas en linea para cuatro jugadores",
+  "main": "king-online-amigos.js",
+  "scripts": {
+    "start": "node king-online-amigos.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
